@@ -1,0 +1,102 @@
+
+/***************************************Carrusel********************************************/
+.elHome{
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.contenedorCarrusel{
+    width: 100%;
+    height: 50vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 65px;
+  }
+  #carouselExampleIndicators{
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.carousel-indicators [data-bs-target] /*Clase especifica de bootstrap*/{
+    width: 6px;       /* Ancho del círculo */
+    height: 6px;      /* Alto del círculo */
+    border-radius: 50%; /* Hacer los indicadores circulares */
+    background-color:  rgba(0, 0, 0, .25); /* Color base de los indicadores */
+    border: 1px solid white;        /*borde predeterminado */
+    margin: 0 5px;       /* Espaciado entre los indicadores */
+  }
+.carousel-indicators .active /* Estilo del indicador cuando este activo o cuando este en ese slide*/{
+    background-color: white; /* Cambiar color del indicador activo a blanco */
+    border: 1px solid rgba(0, 0, 0, 0.425); /* Colocar el borde negro */
+}
+
+  .carousel-inner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  
+  .carousel-item img{
+    width: 100%;  /* Ocupar todo el ancho del contenedor */
+    height: 100%; /* Mantener la proporción original */
+    object-fit:cover;  /* Ajustar para cubrir el contenedor sin deformar */
+    image-rendering:optimizeQuality; /* Mejorar la nitidez */
+    backface-visibility: hidden;  /* Prevenir artefactos gráficos */
+  }
+  .imageCarrusel{
+    width: 100%;  /* Ocupar todo el ancho del contenedor */
+    height: auto; /* Mantener la proporción original */
+ }
+
+ /***Botones Next y Prev del carrusel***/
+ 
+  .carousel-control-prev,.carousel-control-next{
+    display: none;
+  }
+  .carousel-control-next-icon,.carousel-control-prev-icon{
+    width: 25px;
+    height: 25px;
+    filter: invert(100%); 
+}
+ #carouselExampleIndicators:hover .carousel-control-prev {
+  display:flex;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  width: 50px;
+  height: 60px;
+  margin-top: 20vh;
+  background-color: #ffffff;
+}
+#carouselExampleIndicators:hover .carousel-control-next{
+    display: flex;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    width: 50px;
+    height: 60px;
+    margin-top: 20vh;
+    background-color: #ffffff;
+}
+.carousel-control-next:hover{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.63);
+    border-top: 2px solid rgba(0, 0, 0, 0.63);
+    border-left: 2px solid rgba(0, 0, 0, 0.63);    
+  }
+  .carousel-control-prev:hover{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.63);
+    border-top: 2px solid rgba(0, 0, 0, 0.63);
+    border-right: 2px solid rgba(0, 0, 0, 0.63); 
+  }
+
+  /**********************************************************************************************/
+  
+
+
+  

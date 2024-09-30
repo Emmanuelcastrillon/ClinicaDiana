@@ -1,0 +1,125 @@
+.encabezado{
+    width: 100%;
+    height: 20vh;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#7472724e;
+    margin: 0;
+}
+.contenedorLogo{
+    height: 90%;
+    width: 11%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 100px 0px 50px;
+    background-color:#7472724e;
+    border-radius: 100%;
+}
+.linkLogo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+    background: none;
+}
+.contenedorLogo:hover{
+    background-color: #93bfcf;
+    height: 90%;
+    width: 11%;
+}
+.ContenedorMenu{
+    height: 70%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 100px 0px 0px;
+}
+.nosotros,.conocimiento,.testimonioss,.servicios{
+    font-size: 1.7vw;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.nosotros:hover,
+.servicios:hover,
+.conocimiento:hover,
+.testimonioss:hover{
+    color:#76b8bd;
+}
+
+.acercaNosotros,.misServicios,.centroConocimiento,.misTestimonios{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/***********************************Table****************************************/
+@media(max-width:900px){
+    .contenedorLogo{
+        width: 30%;
+        height: 75%;
+        margin-left: 20px;
+        margin-right: 40px;
+     }
+     .contenedorLogo:hover{
+        width: 30%;
+        height: 75%;
+    }
+     .logo{
+        width: 100%;
+    }
+    .ContenedorMenu{
+        height:70%;
+        width: 120%;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        margin-right: 20px;
+    } 
+    .acercaNosotros,.misServicios,.centroConocimiento,.misTestimonios{
+        font-size: 2.7vw;
+        text-align: center;
+     }
+ 
+}
+/***********************************Mobile****************************************/
+
+@media(max-width:480px){
+    .contenedorLogo{
+       width: 30%;
+       height: 70%;
+       margin-left: 40px;
+    }
+    .contenedorLogo:hover{
+        width: 30%;
+        height: 70%;
+    }
+    .logo{
+        width: 80%;
+    }
+    .ContenedorMenu{
+        height:70%;
+        width: 70%;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 30px;
+        padding: 1vw 0px;
+    }
+    .acercaNosotros,.misServicios,.centroConocimiento,.misTestimonios{
+        font-size: 4vw;
+     }
+ 
+}

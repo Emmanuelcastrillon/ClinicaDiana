@@ -1,0 +1,88 @@
+.pieDePagina{
+    background-color:#7472724e;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+   
+}
+.navegacionRedes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    height: 30%;
+    margin-top: 5px;
+}
+.bx.bxl-facebook-circle,.bx.bxl-instagram, .bx.bxl-tiktok,.bx.bxl-whatsapp{
+    font-size: 3.2vw; 
+    color: white;
+}
+.bx.bxl-facebook-circle:hover,
+.bx.bxl-instagram:hover,
+.bx.bxl-tiktok:hover,
+.bx.bxl-whatsapp:hover {
+    color:#93bfcf; /* Cambiar el color al pasar el cursor */
+    transform: scale(1.1); /* Aumentar ligeramente el tamaño */
+    transition: transform 0.001s ease, color 0.001s ease; /* Transición suave */
+}
+.informacion{
+    width: 30%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.linkGeogleMaps{
+    color: rgba(10, 10, 17, 0.853);
+    text-decoration: none;
+}
+.linkGeogleMaps:hover,
+.direccion:hover{
+    color:#93bfcf; /* Cambiar el color al pasar el cursor */
+    transform: scale(1.1); /* Aumentar ligeramente el tamaño */
+    transition: transform 0.001s ease, color 0.001s ease; /* Transición suave */
+    text-decoration:underline;
+}
+.direccion,.derechos{
+    font-size: 1.4vw;
+    color: white;
+}
+
+/***********************************Table****************************************/
+
+@media(max-width:900px){
+    .navegacionRedes{
+        width: 30%;
+        height: 35%;
+    }
+    .bx.bxl-facebook-circle,.bx.bxl-instagram, .bx.bxl-tiktok,.bx.bxl-whatsapp{
+        font-size: 5vw; 
+    }
+    .informacion{
+        width: 55%;
+    }
+    .direccion,.derechos{
+        font-size: 2.5vw;
+    }
+}
+
+/***********************************Mobile****************************************/
+
+@media(max-width:480px){
+    .navegacionRedes{
+        width: 40%;
+        height: 40%;
+    }
+    .bx.bxl-facebook-circle,.bx.bxl-instagram, .bx.bxl-tiktok,.bx.bxl-whatsapp{
+        font-size: 8vw; 
+    }
+    .informacion{
+        width: 75%;
+    }
+    .direccion,.derechos{
+        font-size: 3.7vw;
+    }
+}
