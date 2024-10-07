@@ -7,6 +7,8 @@ function Nosotros() {
      
      <section className='seccionNosotros'>
             <h1>Sobre nosotros</h1>
+           
+           
         </section>
      
     </main>

@@ -1,21 +1,20 @@
 
 /***************************************Carrusel********************************************/
 .elHome{
-    min-height: 60vh;
+    min-height:64vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
 }
 .contenedorCarrusel{
     width: 100%;
-    height: 50vh;
+    height: 80vh;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 65px;
+    margin-top: 11px;
   }
   #carouselExampleIndicators{
     width: 100%;
@@ -70,19 +69,17 @@
   display:flex;
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
-  width: 50px;
+  width: 30px;
   height: 60px;
-  margin-top: 20vh;
-  background-color: #ffffff;
+  margin-top: 35vh;
 }
 #carouselExampleIndicators:hover .carousel-control-next{
     display: flex;
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
-    width: 50px;
+    width: 30px;
     height: 60px;
-    margin-top: 20vh;
-    background-color: #ffffff;
+    margin-top: 35vh;    
 }
 .carousel-control-next:hover{
     border-bottom: 2px solid rgba(0, 0, 0, 0.63);

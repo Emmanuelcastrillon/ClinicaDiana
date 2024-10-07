@@ -1,8 +1,7 @@
 .pieDePagina{
-    background-color:#7472724e;
-    height: 20vh;
+    background-color:white;
+    height: 18vh;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content:space-around;
    
@@ -16,7 +15,7 @@
     margin-top: 5px;
 }
 .bx.bxl-facebook-circle,.bx.bxl-instagram, .bx.bxl-tiktok,.bx.bxl-whatsapp{
-    font-size: 3.2vw; 
+    font-size: 3vw; 
     color: white;
 }
 .bx.bxl-facebook-circle:hover,
@@ -28,27 +27,54 @@
     transition: transform 0.001s ease, color 0.001s ease; /* Transición suave */
 }
 .informacion{
-    width: 30%;
+    width: 60%;
     height: 45%;
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 .linkGeogleMaps{
+    width: 30%;
+    height: 60%;
     color: rgba(10, 10, 17, 0.853);
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
-.linkGeogleMaps:hover,
+
 .direccion:hover{
     color:#93bfcf; /* Cambiar el color al pasar el cursor */
     transform: scale(1.1); /* Aumentar ligeramente el tamaño */
     transition: transform 0.001s ease, color 0.001s ease; /* Transición suave */
     text-decoration:underline;
 }
-.direccion,.derechos{
-    font-size: 1.4vw;
-    color: white;
+.direccion,.ciudad{
+    width: 100%;
+    height: 50%;
+    font-size: 1.3vw;
+    color: rgba(119, 111, 116, 0.541);
+    text-align: center;
+}
+.linkPoliticas{
+    text-decoration: none;
+}
+.politicas{
+    width: 15%;
+    font-size: 1.3vw;
+    color: rgba(119, 111, 116, 0.541);
+    text-align: center;
+}
+.politicas:hover{
+    color:#93bfcf; /* Cambiar el color al pasar el cursor */
+}
+.derechos{
+    width: 33%;
+    font-size: 1vw;
+    color: rgba(119, 111, 116, 0.541);
+    text-align: center;
 }
 
 /***********************************Table****************************************/
@@ -62,27 +88,51 @@
         font-size: 5vw; 
     }
     .informacion{
-        width: 55%;
+        width: 70%;
     }
-    .direccion,.derechos{
-        font-size: 2.5vw;
+    .linkGeogleMaps{
+        width: 40%;
+        margin-top: 25px;
+    }
+    .direccion{
+        width: 100%;
+       
+    }
+    .direccion,.derechos,.politicas,.ciudad{
+        font-size: 2.2vw;
+    }
+    .derechos{
+        font-size: 1.5vw;
+        width: 30%;
+        margin-top: 10px;
     }
 }
 
 /***********************************Mobile****************************************/
 
 @media(max-width:480px){
+    .pieDePagina{
+        flex-direction: column-reverse;
+
+    }
     .navegacionRedes{
         width: 40%;
-        height: 40%;
+        height: 25%;
+        margin-top: 20px;
     }
     .bx.bxl-facebook-circle,.bx.bxl-instagram, .bx.bxl-tiktok,.bx.bxl-whatsapp{
-        font-size: 8vw; 
+        font-size: 7vw; 
     }
     .informacion{
-        width: 75%;
+        width: 100%;
+        height: 40%;
+        margin-bottom: 30px;
     }
-    .direccion,.derechos{
-        font-size: 3.7vw;
+    .direccion,.derechos,.politicas,.ciudad{
+        font-size: 3vw;
+    }
+
+    .derechos{
+        font-size: 2.5vw;
     }
 }

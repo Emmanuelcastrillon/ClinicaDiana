@@ -3,10 +3,14 @@ import '../Styles/home.css';
 import consultorio from '../img/mercado1.png'; 
 import pasillo from '../img/mercado2.png';
 import equipo from '../img/mercado3.png';
+import { Link } from 'react-router-dom';
+
 
 function Home() {
   return (
     <main className='elHome'>
+
+
      
       <div className='contenedorCarrusel'>
           <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" data-interval="5000" >
@@ -41,8 +45,8 @@ function Home() {
             </button>
           </div>
       </div>
-
-
+       
+      
     </main>
   )
 }

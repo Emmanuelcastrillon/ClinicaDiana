@@ -7,6 +7,9 @@ import CentroConocimiento from './Routes/CentroConocimiento';
 import Testimonios from './Routes/Testimonios';
 import './Styles/sitio.css';
 import Servicios from './Routes/Servicios';
+import Pagos from './Routes/Pagos';
+import Login from './components/Login';
+import Politicas from './Routes/Politicas';
 
 function App() {
   return (
@@ -20,6 +23,10 @@ function App() {
         <Route path='/centroConocimiento' element={<CentroConocimiento/>}/>
         <Route path='/testimonios' element={<Testimonios/>}/>
         <Route path='/servicios' element={<Servicios/>}/>
+        <Route path='/Pagos' element={<Pagos/>}/>
+        <Route path='/login' element={<Login/>}/>  
+        <Route path='/politicas' element={<Politicas/>}/>  
+
     
    
    
