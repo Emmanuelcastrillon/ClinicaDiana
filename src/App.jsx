@@ -5,11 +5,15 @@ import Home from './Routes/Home';
 import { Route, Routes } from 'react-router';
 import CentroConocimiento from './Routes/CentroConocimiento';
 import Testimonios from './Routes/Testimonios';
+import Ortodoncia from './Routes/Ortodoncia';
+import Endodoncia from './Routes/Endodoncia';
 import './Styles/sitio.css';
-import Servicios from './Routes/Servicios';
 import Pagos from './Routes/Pagos';
 import Login from './components/Login';
 import Politicas from './Routes/Politicas';
+import DiseñoSonrisa from './Routes/DiseñoSonrisa';
+import Implantologia from './Routes/Implantologia';
+import Higiene from './Routes/Higiene';
 
 function App() {
   return (
@@ -22,15 +26,17 @@ function App() {
         <Route path='/nosotros' element={<Nosotros/>}/>
         <Route path='/centroConocimiento' element={<CentroConocimiento/>}/>
         <Route path='/testimonios' element={<Testimonios/>}/>
-        <Route path='/servicios' element={<Servicios/>}/>
         <Route path='/Pagos' element={<Pagos/>}/>
         <Route path='/login' element={<Login/>}/>  
-        <Route path='/politicas' element={<Politicas/>}/>  
+        <Route path='/politicas' element={<Politicas/>}/> 
+        <Route path='/ortodoncia' element={<Ortodoncia/>}/>
+        <Route path='/endodoncia' element={<Endodoncia/>}/>
+        <Route path='/diseñoSonrisa' element={<DiseñoSonrisa/>}/> 
+        <Route path='/implantologia' element={<Implantologia/>}/>  
+        <Route path='/higiene' element={<Higiene/>}/>  
+      
 
-    
-   
-   
-
+  
       </Routes>
 
       <PieDePagina/> 
