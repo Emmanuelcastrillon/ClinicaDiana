@@ -83,7 +83,7 @@ function Navbar() {
               <a href="https://wa.me/+573127176418" className="linkWhatsap" target='_blank'><i className='bx bxl-whatsapp'></i></a>
           </div>
 
-          <h4 className='telHamburguesa'>Comunicate al: 317-8617206</h4>
+          <h4 className='telHamburguesa'>Comunicate al: Diana</h4>
 
     </div>
       }
