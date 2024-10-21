@@ -66,7 +66,7 @@ function Navbar() {
               <option className='opcionesServicios' value="ortodoncia">Ortodoncia</option>
               <option className='opcionesServicios' value="endodoncia">Endodoncia</option>
               <option className='opcionesServicios' value="estetica dental">Estetica Dental</option>
-              <option className='opcionesServicios' value="implantologia">Implatologia</option>
+              <option className='opcionesServicios' value="implantologia">Implantologia</option>
               <option className='opcionesServicios' value="Higiene">Higiene</option>
               <option className='opcionesServicios' value="odontologia general">Odontologia General</option>
               <option className='opcionesServicios' value="periodoncia">Periodoncia</option>
@@ -111,13 +111,13 @@ function Navbar() {
 
         <Link to={'/nosotros'}  className='nosotross'><h4 className='acercaNosotros'>Nosotros</h4></Link>
         {/* <Link to={'/servicios'}  className='servicioss'><h4 className='misServicios'>Tratamientos</h4></Link> */}
-        <select className='seleccionTratamientos'>
+        <select className='seleccionTratamientos' onChange={handleOnchangeSelect} value={state.valueSelectNavbar}>
 
-        <option className='servicioss'  value="">Tratamientos</option>
+        <option className='servicioss'  value="" disabled hidden>Tratamientos</option>
         <option className='opcionesServicios' value="ortodoncia">Ortodoncia</option>
         <option className='opcionesServicios' value="endodoncia">Endodoncia</option>
         <option className='opcionesServicios' value="estetica dental">Estetica Dental</option>
-        <option className='opcionesServicios' value="implantologia">Implatologia</option>
+        <option className='opcionesServicios' value="implantologia">Implantologia</option>
         <option className='opcionesServicios' value="Higiene">Higiene</option>
         <option className='opcionesServicios' value="odontologia general">Odontologia General</option>
         <option className='opcionesServicios' value="periodoncia">Periodoncia</option>

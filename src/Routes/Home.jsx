@@ -1,8 +1,8 @@
 import React from 'react';
 import '../Styles/home.css';
-import consultorio from '../img/mercado1.png'; 
-import pasillo from '../img/mercado2.png';
-import equipo from '../img/mercado3.png';
+import consultorio from '../img/DSC02477.JPG'; 
+import pasillo from '../img/Copia de DSC02581.JPG';
+import equipo from '../img/pan.png';
 import { Link } from 'react-router-dom';
 
 
@@ -44,6 +44,13 @@ function Home() {
               <span className="visually-hidden">Next</span>
             </button>
           </div>
+      </div>
+
+      <div className="porQueElegirnos">
+        <h1 className="tituloPorQueElegirnos">Por que Elegirnos?</h1>
+        <p className="parrafoElegirnos">Nuestro equipo está compuesto por odontólogos con diversas especialidades, 
+          como ortodoncia y periodoncia, todos con una sólida experiencia y en constante formación. 
+          Nuestros higienistas se enfocan en la limpieza y prevención, educando a los pacientes sobre la importancia de la higiene oral. El personal de recepción y administración se encarga de crear un ambiente acogedor y gestionar citas de manera eficiente, mientras que los asistentes brindan apoyo durante los procedimientos, asegurando que los pacientes se sientan cómodos. Fomentamos una cultura de empatía y comunicación clara, lo que garantiza que cada paciente se sienta valorado y atendido en cada etapa de su experiencia en la clínica. La formación continua en atención al cliente es clave para mantener un alto estándar de servicio.</p>
       </div>
        
       

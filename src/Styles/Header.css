@@ -83,6 +83,7 @@
     align-items: center;
     justify-content: center;
     background-color: #76b8bd;
+    margin-bottom: 30px;
 }
 .nosotross,.conocimientoss,.testimonioss,.servicioss,.pagoss{
     text-decoration: none;
@@ -277,7 +278,11 @@
         text-align: center;
         width: 80%;
         background-color: #76b8bd;        
-        margin: 5px 0px 0px 0px;
+        margin: 5px 0vw 0px 0px;
+     }
+     
+     .opcionesServicios{
+        font-size: 10px;
      }
      .contRedesHamburguesa{
         width: 60%;
