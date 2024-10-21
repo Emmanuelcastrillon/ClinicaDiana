@@ -10,7 +10,7 @@ function Navbar() {
 
   const navigate=useNavigate()
 
-  const{state, dispatch}=useContextGlobal()/*Importacion el contexto global*/
+  const{state, dispatch}=useContextGlobal()/*Importacion del contexto global*/
 
 /*Manejo del onclick de la hamburguesa*/
 
