@@ -65,9 +65,23 @@ function Navbar() {
               <option className='servi'  value="" disabled hidden>Tratamientos</option>
               <option className='opcionesServicios' value="ortodoncia">Ortodoncia</option>
               <option className='opcionesServicios' value="endodoncia">Endodoncia</option>
+<<<<<<< HEAD
+              <option className='opcionesServicios' value="estetica dental">Estetica Dental</option>
+              <option className='opcionesServicios' value="implantologia">Implatologia</option>
+              <option className='opcionesServicios' value="Higiene">Higiene</option>
+              <option className='opcionesServicios' value="odontologia general">Odontologia General</option>
+              <option className='opcionesServicios' value="periodoncia">Periodoncia</option>
+              <option className='opcionesServicios' value="operatoria">Operatoria</option>
+              <option className='opcionesServicios' value="rehabilitacion oral">Rehabilitacion Oral</option>
+              <option className='opcionesServicios' value="cirugía">Cirugía</option>
+              <option className='opcionesServicios' value="odontopediatria">Odontepediatria</option>
+              
+    
+=======
               <option className='opcionesServicios' value="diseñoSonrisa">Diseño de sonrisa</option>
               <option className='opcionesServicios' value="implantologia">Implatologia</option>
               <option className='opcionesServicios' value="Higiene">Higiene</option>
+>>>>>>> 8a31e356e8f5787f3c44a65eb2cdf5dae34c906d
             </select>
     
             <Link to={'/centroConocimiento'}  className='conocimientoss'><h4 className='centroConocimiento'>Noticias</h4></Link>
@@ -77,10 +91,10 @@ function Navbar() {
           </nav>
     
           <div className='contRedesHamburguesa'>
-              <a className="linkFacebook" target='_blank' href="https://wa.me/+573127176418" ><i class='bx bxl-facebook-circle'></i></a>
-              <a href="https://boxicons.com/?query=" className="linkInstagram" target='_blank'><i class='bx bxl-instagram'></i></a>
-              <a href="https://boxicons.com/?query=tiktok" className="linkTiktok" target='_blank'><i class='bx bxl-tiktok'></i></a>
-              <a href="https://wa.me/+573127176418" className="linkWhatsap" target='_blank'><i className='bx bxl-whatsapp'></i></a>
+              <a className="linkfacebook" target='_blank' href="https://www.facebook.com/share/Rieq2o3Xi8fckhij/?mibextid=LQQJ4d" ><i class='bx bxl-facebook-circle'></i></a>
+              <a href="https://www.instagram.com/matzudentalaesthetics?igsh=MTJsNmVmZDVvY2J6Yg==" className="linkInstagram" target='_blank'><i class='bx bxl-instagram'></i></a>
+              <a href="https://www.tiktok.com/@matzudentalaesthetics?_t=8pwopCDAWBS&_r=1" className="linkTiktok" target='_blank'><i class='bx bxl-tiktok'></i></a>
+              <a href="https://wa.me/+573178617206" className="linkWhatsap" target='_blank'><i className='bx bxl-whatsapp'></i></a>
           </div>
 
           <h4 className='telHamburguesa'>Comunicate al: 317-8617206</h4>
@@ -91,10 +105,10 @@ function Navbar() {
       <h4 className='telefono'>Comunicate al: 317-8617206</h4>
 
       <div className='contenedorRedes'>
-          <a className="linkFacebook" target='_blank' href="https://wa.me/+573127176418" ><i class='bx bxl-facebook-circle'></i></a>
-          <a href="https://boxicons.com/?query=" className="linkInstagram" target='_blank'><i class='bx bxl-instagram'></i></a>
-          <a href="https://boxicons.com/?query=tiktok" className="linkTiktok" target='_blank'><i class='bx bxl-tiktok'></i></a>
-          <a href="https://wa.me/+573127176418" className="linkWhatsap" target='_blank'><i className='bx bxl-whatsapp'></i></a>
+          <a className="linkfacebook" target='_blank' href="https://www.facebook.com/share/Rieq2o3Xi8fckhij/?mibextid=LQQJ4d" ><i class='bx bxl-facebook-circle'></i></a>
+          <a href="https://www.instagram.com/matzudentalaesthetics?igsh=MTJsNmVmZDVvY2J6Yg==" className="linkInstagram" target='_blank'><i class='bx bxl-instagram'></i></a>
+          <a href="https://www.tiktok.com/@matzudentalaesthetics?_t=8pwopCDAWBS&_r=1" className="linkTiktok" target='_blank'><i class='bx bxl-tiktok'></i></a>
+          <a href="https://wa.me/+573178617206" className="linkWhatsap" target='_blank'><i className='bx bxl-whatsapp'></i></a>
       </div>
 
       <Link to={'/login'} className='cita'><button className='botonCita'>Agenda tu Cita</button></Link>
@@ -102,6 +116,24 @@ function Navbar() {
       <nav className='ContenedorMenu'>
 
         <Link to={'/nosotros'}  className='nosotross'><h4 className='acercaNosotros'>Nosotros</h4></Link>
+<<<<<<< HEAD
+        {/* <Link to={'/servicios'}  className='servicioss'><h4 className='misServicios'>Tratamientos</h4></Link> */}
+        <select className='seleccionTratamientos'>
+
+        <option className='servicioss'  value="">Tratamientos</option>
+        <option className='opcionesServicios' value="ortodoncia">Ortodoncia</option>
+        <option className='opcionesServicios' value="endodoncia">Endodoncia</option>
+        <option className='opcionesServicios' value="estetica dental">Estetica Dental</option>
+        <option className='opcionesServicios' value="implantologia">Implatologia</option>
+        <option className='opcionesServicios' value="Higiene">Higiene</option>
+        <option className='opcionesServicios' value="odontologia general">Odontologia General</option>
+        <option className='opcionesServicios' value="periodoncia">Periodoncia</option>
+        <option className='opcionesServicios' value="operatoria">Operatoria</option>
+        <option className='opcionesServicios' value="rehabilitacion oral">Rehabilitacion Oral</option>
+        <option className='opcionesServicios' value="cirugía">Cirugía</option>
+        <option className='opcionesServicios' value="odontopediatria">Odontepediatria</option>
+
+=======
         
         <select className='seleccionTratamientos'  value={state.valueSelectNavbar} onChange={handleOnchangeSelect}>
           <option className='servi'  value="" disabled hidden>Tratamientos</option>
@@ -110,6 +142,7 @@ function Navbar() {
           <option className='opcionesServicios' value="diseñoSonrisa">Diseño de sonrisa</option>
           <option className='opcionesServicios' value="implantologia">Implatologia</option>
           <option className='opcionesServicios' value="Higiene">Higiene</option>
+>>>>>>> 8a31e356e8f5787f3c44a65eb2cdf5dae34c906d
         </select>
 
         <Link to={'/centroConocimiento'}  className='conocimientoss'><h4 className='centroConocimiento'>Noticias</h4></Link>

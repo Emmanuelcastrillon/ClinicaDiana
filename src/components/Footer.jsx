@@ -16,10 +16,10 @@ function Footer() {
         </div>
 
         <div className="navegacionRedes">
-          <a className="linkFacebook" target='_blank' href="https://wa.me/+573127176418" ><i class='bx bxl-facebook-circle'></i></a>
-          <a href="https://boxicons.com/?query=" className="linkInstagram" target='_blank'><i class='bx bxl-instagram'></i></a>
-          <a href="https://boxicons.com/?query=tiktok" className="linkTiktok" target='_blank'><i class='bx bxl-tiktok'></i></a>
-          <a href="https://wa.me/+573127176418" className="linkWhatsap" target='_blank'><i className='bx bxl-whatsapp'></i></a>
+          <a className="https://www.facebook.com/share/Rieq2o3Xi8fckhij/?mibextid=LQQJ4d" target='_blank' href="https://wa.me/+573127176418" ><i class='bx bxl-facebook-circle'></i></a>
+          <a href="https://www.instagram.com/matzudentalaesthetics?igsh=MTJsNmVmZDVvY2J6Yg==" className="linkInstagram" target='_blank'><i class='bx bxl-instagram'></i></a>
+          <a href="https://www.tiktok.com/@matzudentalaesthetics?_t=8pwopCDAWBS&_r=1" className="linkTiktok" target='_blank'><i class='bx bxl-tiktok'></i></a>
+          <a href="https://wa.me/+573178617206" className="linkWhatsap" target='_blank'><i className='bx bxl-whatsapp'></i></a>
         </div>
 
     </footer>
