@@ -88,7 +88,7 @@ function Navbar() {
     </div>
       }
     
-      <h4 className='telefono'>Comunicate al: Emmanuel</h4>
+      <h4 className='telefono'>Comunicate al: 317-8617206</h4>
 
       <div className='contenedorRedes'>
           <a className="linkFacebook" target='_blank' href="https://wa.me/+573127176418" ><i class='bx bxl-facebook-circle'></i></a>
