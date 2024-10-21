@@ -65,7 +65,6 @@ function Navbar() {
               <option className='servi'  value="" disabled hidden>Tratamientos</option>
               <option className='opcionesServicios' value="ortodoncia">Ortodoncia</option>
               <option className='opcionesServicios' value="endodoncia">Endodoncia</option>
-<<<<<<< HEAD
               <option className='opcionesServicios' value="estetica dental">Estetica Dental</option>
               <option className='opcionesServicios' value="implantologia">Implatologia</option>
               <option className='opcionesServicios' value="Higiene">Higiene</option>
@@ -77,11 +76,6 @@ function Navbar() {
               <option className='opcionesServicios' value="odontopediatria">Odontepediatria</option>
               
     
-=======
-              <option className='opcionesServicios' value="diseñoSonrisa">Diseño de sonrisa</option>
-              <option className='opcionesServicios' value="implantologia">Implatologia</option>
-              <option className='opcionesServicios' value="Higiene">Higiene</option>
->>>>>>> 8a31e356e8f5787f3c44a65eb2cdf5dae34c906d
             </select>
     
             <Link to={'/centroConocimiento'}  className='conocimientoss'><h4 className='centroConocimiento'>Noticias</h4></Link>
@@ -116,7 +110,6 @@ function Navbar() {
       <nav className='ContenedorMenu'>
 
         <Link to={'/nosotros'}  className='nosotross'><h4 className='acercaNosotros'>Nosotros</h4></Link>
-<<<<<<< HEAD
         {/* <Link to={'/servicios'}  className='servicioss'><h4 className='misServicios'>Tratamientos</h4></Link> */}
         <select className='seleccionTratamientos'>
 
@@ -133,16 +126,6 @@ function Navbar() {
         <option className='opcionesServicios' value="cirugía">Cirugía</option>
         <option className='opcionesServicios' value="odontopediatria">Odontepediatria</option>
 
-=======
-        
-        <select className='seleccionTratamientos'  value={state.valueSelectNavbar} onChange={handleOnchangeSelect}>
-          <option className='servi'  value="" disabled hidden>Tratamientos</option>
-          <option className='opcionesServicios' value="ortodoncia">Ortodoncia</option>
-          <option className='opcionesServicios' value="endodoncia">Endodoncia</option>
-          <option className='opcionesServicios' value="diseñoSonrisa">Diseño de sonrisa</option>
-          <option className='opcionesServicios' value="implantologia">Implatologia</option>
-          <option className='opcionesServicios' value="Higiene">Higiene</option>
->>>>>>> 8a31e356e8f5787f3c44a65eb2cdf5dae34c906d
         </select>
 
         <Link to={'/centroConocimiento'}  className='conocimientoss'><h4 className='centroConocimiento'>Noticias</h4></Link>
