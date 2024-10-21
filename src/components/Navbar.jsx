@@ -30,9 +30,16 @@ function Navbar() {
               <option className='servi'  value="">Tratamientos</option>
               <option className='opcionesServicios' value="ortodoncia">Ortodoncia</option>
               <option className='opcionesServicios' value="endodoncia">Endodoncia</option>
-              <option className='opcionesServicios' value="diseño de sonrisa">Diseño de sonrisa</option>
+              <option className='opcionesServicios' value="estetica dental">Estetica Dental</option>
               <option className='opcionesServicios' value="implantologia">Implatologia</option>
               <option className='opcionesServicios' value="Higiene">Higiene</option>
+              <option className='opcionesServicios' value="odontologia general">Odontologia General</option>
+              <option className='opcionesServicios' value="periodoncia">Periodoncia</option>
+              <option className='opcionesServicios' value="operatoria">Operatoria</option>
+              <option className='opcionesServicios' value="rehabilitacion oral">Rehabilitacion Oral</option>
+              <option className='opcionesServicios' value="cirugía">Cirugía</option>
+              <option className='opcionesServicios' value="odontopediatria">Odontepediatria</option>
+              
     
             </select>
     
@@ -42,10 +49,10 @@ function Navbar() {
           </nav>
     
           <div className='contRedesHamburguesa'>
-              <a className="linkFacebook" target='_blank' href="https://wa.me/+573127176418" ><i class='bx bxl-facebook-circle'></i></a>
-              <a href="https://boxicons.com/?query=" className="linkInstagram" target='_blank'><i class='bx bxl-instagram'></i></a>
-              <a href="https://boxicons.com/?query=tiktok" className="linkTiktok" target='_blank'><i class='bx bxl-tiktok'></i></a>
-              <a href="https://wa.me/+573127176418" className="linkWhatsap" target='_blank'><i className='bx bxl-whatsapp'></i></a>
+              <a className="linkfacebook" target='_blank' href="https://www.facebook.com/share/Rieq2o3Xi8fckhij/?mibextid=LQQJ4d" ><i class='bx bxl-facebook-circle'></i></a>
+              <a href="https://www.instagram.com/matzudentalaesthetics?igsh=MTJsNmVmZDVvY2J6Yg==" className="linkInstagram" target='_blank'><i class='bx bxl-instagram'></i></a>
+              <a href="https://www.tiktok.com/@matzudentalaesthetics?_t=8pwopCDAWBS&_r=1" className="linkTiktok" target='_blank'><i class='bx bxl-tiktok'></i></a>
+              <a href="https://wa.me/+573178617206" className="linkWhatsap" target='_blank'><i className='bx bxl-whatsapp'></i></a>
           </div>
           <h4 className='telHamburguesa'>Comunicate al: 317-8617206</h4>
     </div>
@@ -55,10 +62,10 @@ function Navbar() {
       <h4 className='telefono'>Comunicate al: 317-8617206</h4>
 
       <div className='contenedorRedes'>
-          <a className="linkFacebook" target='_blank' href="https://wa.me/+573127176418" ><i class='bx bxl-facebook-circle'></i></a>
-          <a href="https://boxicons.com/?query=" className="linkInstagram" target='_blank'><i class='bx bxl-instagram'></i></a>
-          <a href="https://boxicons.com/?query=tiktok" className="linkTiktok" target='_blank'><i class='bx bxl-tiktok'></i></a>
-          <a href="https://wa.me/+573127176418" className="linkWhatsap" target='_blank'><i className='bx bxl-whatsapp'></i></a>
+          <a className="linkfacebook" target='_blank' href="https://www.facebook.com/share/Rieq2o3Xi8fckhij/?mibextid=LQQJ4d" ><i class='bx bxl-facebook-circle'></i></a>
+          <a href="https://www.instagram.com/matzudentalaesthetics?igsh=MTJsNmVmZDVvY2J6Yg==" className="linkInstagram" target='_blank'><i class='bx bxl-instagram'></i></a>
+          <a href="https://www.tiktok.com/@matzudentalaesthetics?_t=8pwopCDAWBS&_r=1" className="linkTiktok" target='_blank'><i class='bx bxl-tiktok'></i></a>
+          <a href="https://wa.me/+573178617206" className="linkWhatsap" target='_blank'><i className='bx bxl-whatsapp'></i></a>
       </div>
 
 
@@ -81,9 +88,15 @@ function Navbar() {
         <option className='servicioss'  value="">Tratamientos</option>
         <option className='opcionesServicios' value="ortodoncia">Ortodoncia</option>
         <option className='opcionesServicios' value="endodoncia">Endodoncia</option>
-        <option className='opcionesServicios' value="diseño de sonrisa">Diseño de sonrisa</option>
+        <option className='opcionesServicios' value="estetica dental">Estetica Dental</option>
         <option className='opcionesServicios' value="implantologia">Implatologia</option>
         <option className='opcionesServicios' value="Higiene">Higiene</option>
+        <option className='opcionesServicios' value="odontologia general">Odontologia General</option>
+        <option className='opcionesServicios' value="periodoncia">Periodoncia</option>
+        <option className='opcionesServicios' value="operatoria">Operatoria</option>
+        <option className='opcionesServicios' value="rehabilitacion oral">Rehabilitacion Oral</option>
+        <option className='opcionesServicios' value="cirugía">Cirugía</option>
+        <option className='opcionesServicios' value="odontopediatria">Odontepediatria</option>
 
         </select>
 
