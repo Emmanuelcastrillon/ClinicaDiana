@@ -122,11 +122,14 @@
     margin-bottom: 4px;
     text-align: center;
     background-color: #76b8bd;  
-
 }
 .seleccionTratamientos:hover{
     color: white; 
 }
+.seleccionTratamientos:focus{
+    outline: none; /* Elimina el contorno al enfocar */
+}
+
 .opcionesServicios{
     text-align: center;  
 }
@@ -232,6 +235,10 @@
         background-color: rgba(119, 111, 116, 0.541);
         border-radius: 2px;
         margin: 2px 0;
+    }
+    .burguerActivado{
+      color: rgba(119, 111, 116, 0.541);
+      margin-top: 10px;
     }
     .hamburguesa{
        display: flex;
