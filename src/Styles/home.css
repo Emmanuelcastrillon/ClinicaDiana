@@ -121,8 +121,42 @@
     font-size: 1.5vw;
     text-align: center;
     margin-top: 20px;
-    /* background-color: greenyellow; */
   }
+  .contenedorPilares{
+    /* background-color: blue; */
+    display: flex;
+    width: 90vw;
+    height: 190px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 45px;
+  }
+  .comunicacion,.confianza,.equipo{
+    background-color: #76b8bd63;
+    width: 30%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    border-radius: 15px;
+  }
+  .tituloComunicacion,.tituloConfianza,.tituloEquipo{
+    font-size: 1.7vw;
+    color: #76b8bd;
+    font-weight: 800;
+  }
+  .parrafoCuminicacion,.parrafoConfianza,.parrafoEquipo{
+    text-align: center;
+    color: rgba(119, 111, 116, 0.541);  
+    font-weight: 800;
+
+  }
+  .parrafoEquipo{
+    margin-bottom: 37px;
+  }
+
+
 
 
   /***********************************Table****************************************/
@@ -138,7 +172,20 @@
   .parrafoElegirnos{
     font-size: 2.5vw;
   }
-  
+  .contenedorPilares{
+     width: 100vw;
+  }
+  .comunicacion,.confianza,.equipo{
+    width: 31%;
+    height: 80%;
+  }
+  .tituloComunicacion,.tituloConfianza,.tituloEquipo{
+    margin-top: 30px;
+  }
+  .parrafoCuminicacion,.parrafoConfianza,.parrafoEquipo{
+    font-size: 1.8vw;
+    height: 80%;
+  }
 
 }
 
@@ -159,5 +206,28 @@
     font-size:4vw;
     margin-top: 10px;
   }
+  .contenedorPilares{
+   flex-direction: column;
+   height: 700px;
+   width: 60%;
+ }
+ .comunicacion,.confianza,.equipo{
+  width: 90%;
+  height: 30%;
+}
+.tituloComunicacion,.tituloConfianza,.tituloEquipo{
+ font-size: 4vw;
+ height: 40%;
+ text-align: center;
+}
+.parrafoCuminicacion,.parrafoConfianza,.parrafoEquipo{
+  font-size: 1.8vw;
+  height: 80%;
+  font-size: 3.5vw;
+  width: 80%;
+}
+.parrafoCuminicacion,.parrafoConfianza{
+  margin-bottom: 40px;
+}
 
  }

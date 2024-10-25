@@ -10,8 +10,6 @@ function Home() {
   return (
     <main className='elHome'>
 
-
-     
       <div className='contenedorCarrusel'>
           <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" data-interval="5000" >
             <div className="carousel-indicators">
@@ -52,6 +50,28 @@ function Home() {
           como ortodoncia y periodoncia, todos con una sólida experiencia y en constante formación. 
           Nuestros higienistas se enfocan en la limpieza y prevención, educando a los pacientes sobre la importancia de la higiene oral. El personal de recepción y administración se encarga de crear un ambiente acogedor y gestionar citas de manera eficiente, mientras que los asistentes brindan apoyo durante los procedimientos, asegurando que los pacientes se sientan cómodos. Fomentamos una cultura de empatía y comunicación clara, lo que garantiza que cada paciente se sienta valorado y atendido en cada etapa de su experiencia en la clínica. La formación continua en atención al cliente es clave para mantener un alto estándar de servicio.</p>
       </div>
+
+      <div className="contenedorPilares">
+
+        <div className="comunicacion">
+          <h3 className="tituloComunicacion">Comunicacion Efectiva</h3>
+          <p className="parrafoCuminicacion">Con una gran actitud Nos aseguramos de comunicarnos claramente y con una postura positiva.</p>
+        </div>
+
+        <div className="confianza">
+          <h3 className="tituloConfianza">Generar confianza y seguridad</h3>
+          <p className="parrafoConfianza">Nuestra prioridad es hacer que nuestros pacientes se sientan seguros y confiados en nuestros cuidados.</p>
+        </div>
+
+        <div className="equipo">
+          <h3 className="tituloEquipo">Equipo armonioso y talentoso</h3>
+          <p className="parrafoEquipo">Fomentamos la colaboración y el talento entre todos los miembros de nuestro equipo.</p>
+        </div>
+
+      </div>
+
+
+
        
       
     </main>
