@@ -163,6 +163,9 @@
 
 /***********************************Table****************************************/
 @media(max-width:900px){
+    .encabezado{
+        height: 23vh;
+    }
     .contenedorLogo{
         width: 26%;
         height: 68%;
@@ -197,6 +200,7 @@
     .ContenedorMenu{
         height:30%;
         margin: 0;
+        background-color: greenyellow;
     }
     .acercaNosotros,.misServicios,.centroConocimiento,.misTestimonios,.misPagos{
         font-size: 2.3vw;
@@ -212,12 +216,13 @@
 
 @media(max-width:480px){
     .contenedorLogo{
-       width: 30%;
+       width: 40%;
        height: 70%;
        margin-left: 10px;
+       background-color: aqua;
     }
     .logo{
-        width: 80%;
+        width: 100%;
     }
     .hambur{
        display: flex;
@@ -228,7 +233,7 @@
        align-items: center;
        background-color: #76b8bd;
        border-radius: 5px;
-       margin-left: 95px;
+       margin-left: 60px;
     }
     .lineaBurguer{
         height: 3px;
