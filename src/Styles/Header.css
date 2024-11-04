@@ -204,12 +204,12 @@
     .acercaNosotros,.misServicios,.centroConocimiento,.misTestimonios,.misPagos{
         font-size: 2.3vw;
         text-align: center;
-        margin-bottom: 45px;
+        margin-bottom: 40px;
      }
      .seleccionTratamientos{
         width: 18vw;
         font-size: 2.2vw;
-        margin-bottom: 40px;
+        margin-bottom: 35px;
     }
 
 }
