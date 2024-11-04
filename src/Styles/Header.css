@@ -163,7 +163,7 @@
 /***********************************Table****************************************/
 @media(max-width:900px){
     .encabezado{
-        height: 30vh;
+        height: 40vh;
     }
     .contenedorLogo{
         width: 26%;
@@ -197,18 +197,19 @@
         font-size: 1.3vw;
     }
     .ContenedorMenu{
-        height:45%;
+        height:50%;
         margin: 0;
+        background-color: greenyellow;
     }
     .acercaNosotros,.misServicios,.centroConocimiento,.misTestimonios,.misPagos{
         font-size: 2.3vw;
         text-align: center;
-        margin-bottom: 28px;
+        margin-bottom: 45px;
      }
      .seleccionTratamientos{
         width: 18vw;
         font-size: 2.2vw;
-        margin-bottom: 24px;
+        margin-bottom: 40px;
     }
 
 }
