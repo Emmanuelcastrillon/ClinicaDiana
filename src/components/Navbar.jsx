@@ -18,6 +18,10 @@ function Navbar() {
     dispatch({type: 'set_isBurguer', payload:!state.isBurguer}) /*Activo el disparador para que cambie el valor del estado isBurguer*/
   }
 
+  const handleOnclickCerrarContenedorBurguer=()=>{
+    dispatch({type: 'set_isBurguer', payload:false})
+  }
+
 /*Manejo del onchange del select*/
 
   const handleOnchangeSelect=(event)=>{
@@ -25,7 +29,7 @@ function Navbar() {
     if(selectValue){ 
       navigate(`/${selectValue}`); /*si el select toma un valor valido navega a la ruta que toma el valor del option en el select*/
       dispatch({type: 'set_valueSelectNavbar', payload:""}) /*Activo el disparador para que cambie el valor del estado del select*/
-      handleOnclickHambur();
+      handleOnclickCerrarContenedorBurguer();
     }
   }
 
@@ -35,7 +39,7 @@ function Navbar() {
       {/********************Logo***********************/}
 
       <div className='contenedorLogo'>
-        <Link to={'/'} className='linkLogo'> <img className='logo' src={Logo} alt="Matzu"/></Link>
+        <Link to={'/'} className='linkLogo' onClick={handleOnclickCerrarContenedorBurguer}> <img className='logo' src={Logo} alt="Matzu"/></Link>
       </div>
 
        {/* if ternario que valida el estado de la hamburguesa si es true renderiza el icono hambur inicial, si es falso renderiza el icono hambur para cerrar*/}
@@ -60,7 +64,7 @@ function Navbar() {
           
           <nav className='ContMenuHamburguesa'>
 
-            <Link to={'/nosotros'} className='nosotross' onClick={handleOnclickHambur}><h4 className='acercaNosotros'>Nosotros</h4></Link>
+            <Link to={'/nosotros'} className='nosotross' onClick={handleOnclickCerrarContenedorBurguer}><h4 className='acercaNosotros'>Nosotros</h4></Link>
 
             <select className='seleccionTratamientos'  value={state.valueSelectNavbar} onChange={handleOnchangeSelect}>
               <option className='servi'  value="" disabled hidden>Tratamientos</option>
@@ -79,9 +83,9 @@ function Navbar() {
     
             </select>
     
-            <Link to={'/centroConocimiento'} onClick={handleOnclickHambur}  className='conocimientoss'><h4 className='centroConocimiento'>Noticias</h4></Link>
-            <Link to={'/testimonios'} onClick={handleOnclickHambur}  className='testimonioss'><h4 className='misTestimonios'>Testimonios</h4></Link>
-            <Link to={'/pagos'} onClick={handleOnclickHambur}  className='pagoss'><h4 className='misPagos'>Pagos</h4></Link>
+            <Link to={'/centroConocimiento'} onClick={handleOnclickCerrarContenedorBurguer}  className='conocimientoss'><h4 className='centroConocimiento'>Noticias</h4></Link>
+            <Link to={'/testimonios'} onClick={handleOnclickCerrarContenedorBurguer}  className='testimonioss'><h4 className='misTestimonios'>Testimonios</h4></Link>
+            <Link to={'/pagos'} onClick={handleOnclickCerrarContenedorBurguer}  className='pagoss'><h4 className='misPagos'>Pagos</h4></Link>
 
           </nav>
     
@@ -106,13 +110,13 @@ function Navbar() {
           <a href="https://wa.me/+573178617206" className="linkWhatsap" target='_blank'><i className='bx bxl-whatsapp'></i></a>
       </div>
 
-      <Link to={'/login'} className='cita'><button className='botonCita'>Agenda tu Cita</button></Link>
+      <Link to={'/login'} className='cita' onClick={handleOnclickCerrarContenedorBurguer}><button className='botonCita'>Agenda tu Cita</button></Link>
 
       <nav className='ContenedorMenu'>
 
         <Link to={'/nosotros'}  className='nosotross'><h4 className='acercaNosotros'>Nosotros</h4></Link>
         {/* <Link to={'/servicios'}  className='servicioss'><h4 className='misServicios'>Tratamientos</h4></Link> */}
-        <select className='seleccionTratamientos' onChange={handleOnchangeSelect} value={state.valueSelectNavbar}>
+        <select className='seleccionTratamientos'  onChange={handleOnchangeSelect} value={state.valueSelectNavbar}>
 
         <option className='servicioss'  value="" disabled hidden>Tratamientos</option>
         <option className='opcionesServicios' value="ortodoncia">Ortodoncia</option>
