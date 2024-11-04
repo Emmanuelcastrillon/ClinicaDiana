@@ -8,7 +8,6 @@ export const contextoGlobal=createContext();
 export const initialState={
     isBurguer:false,  // Estado de la hamburguesa del header inicia en falso.
     valueSelectNavbar:"", // Estado que maneja el valor del select de la navegacion en el header.
-    
 }
 
 const ContextProvider=({children})=>{

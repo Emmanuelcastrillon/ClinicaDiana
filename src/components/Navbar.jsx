@@ -25,6 +25,7 @@ function Navbar() {
     if(selectValue){ 
       navigate(`/${selectValue}`); /*si el select toma un valor valido navega a la ruta que toma el valor del option en el select*/
       dispatch({type: 'set_valueSelectNavbar', payload:""}) /*Activo el disparador para que cambie el valor del estado del select*/
+      handleOnclickHambur();
     }
   }
 
@@ -59,11 +60,11 @@ function Navbar() {
           
           <nav className='ContMenuHamburguesa'>
 
-            <Link to={'/nosotros'}  className='nosotross'><h4 className='acercaNosotros'>Nosotros</h4></Link>
+            <Link to={'/nosotros'} className='nosotross' onClick={handleOnclickHambur}><h4 className='acercaNosotros'>Nosotros</h4></Link>
 
-            <select className='seleccionTratamientos' value={state.valueSelectNavbar} onChange={handleOnchangeSelect}>
+            <select className='seleccionTratamientos'  value={state.valueSelectNavbar} onChange={handleOnchangeSelect}>
               <option className='servi'  value="" disabled hidden>Tratamientos</option>
-              <option className='opcionesServicios' value="ortodoncia">Ortodoncia</option>
+              <option className='opcionesServicios'  value="ortodoncia">Ortodoncia</option>
               <option className='opcionesServicios' value="endodoncia">Endodoncia</option>
               <option className='opcionesServicios' value="estetica dental">Estetica Dental</option>
               <option className='opcionesServicios' value="implantologia">Implantologia</option>
@@ -78,9 +79,9 @@ function Navbar() {
     
             </select>
     
-            <Link to={'/centroConocimiento'}  className='conocimientoss'><h4 className='centroConocimiento'>Noticias</h4></Link>
-            <Link to={'/testimonios'}  className='testimonioss'><h4 className='misTestimonios'>Testimonios</h4></Link>
-            <Link to={'/pagos'}  className='pagoss'><h4 className='misPagos'>Pagos</h4></Link>
+            <Link to={'/centroConocimiento'} onClick={handleOnclickHambur}  className='conocimientoss'><h4 className='centroConocimiento'>Noticias</h4></Link>
+            <Link to={'/testimonios'} onClick={handleOnclickHambur}  className='testimonioss'><h4 className='misTestimonios'>Testimonios</h4></Link>
+            <Link to={'/pagos'} onClick={handleOnclickHambur}  className='pagoss'><h4 className='misPagos'>Pagos</h4></Link>
 
           </nav>
     
