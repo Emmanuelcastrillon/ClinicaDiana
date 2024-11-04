@@ -215,6 +215,9 @@
 /***********************************Mobile****************************************/
 
 @media(max-width:480px){
+    .encabezado{
+        height: 18vh;
+    }
     .contenedorLogo{
        width: 40%;
        height: 70%;
