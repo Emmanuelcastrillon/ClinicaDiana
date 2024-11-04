@@ -1,0 +1,160 @@
+.formularioUsuario{
+    /* border: 2px solid gray; */
+    display: flex;
+    flex-wrap: wrap  ;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    justify-content: space-around;
+   
+}
+.tituloFormulario{
+    width: 83%;
+    color: #76b8bd;
+    font-size: 1.5vw;
+}
+.contenedorInput{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+}
+.contenedorInputSelect{
+    display: flex;
+    flex-direction: column;
+    align-items:first baseline;
+    width: 92%;
+}
+.labelFormulario,.labelFormularioEmail,.labelFormularioSelect{
+    color: rgba(119, 111, 116, 0.541);  
+}
+
+.inputFormulario{
+    text-align: center;
+    width: 16vw;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 25px;
+    margin-top: 5px;
+    border: 1px solid rgba(119, 111, 116, 0.541) ;
+    color: rgba(0, 0, 0, 0.575);
+}
+.selectTratamientosFormulario,.selectIdentificacionFormulario{
+    text-align: center;
+    width: 16vw;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 25px;
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.575);
+    border: 1px solid rgba(119, 111, 116, 0.541) ;
+    text-align: left;
+}
+.selectTratamientosFormulario{
+    width: 91%;
+}
+.opcionesIdentificacionFormulario,.opcionesServiciosFormulario{
+    text-align: left;
+    color: rgba(0, 0, 0, 0.575);
+}
+.botonFormulario{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    width: 80%;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #76b8bd;
+    color: white
+}
+.botonFormulario:hover{
+    background-color: rgba(119, 111, 116, 0.541);
+    transform: scale(1.01); /* Aumentar ligeramente el tamaño */
+    transition: transform 0.001s ease, color 0.009s ease; /* Transición suave */
+}
+
+/***********************************Table****************************************/
+
+@media(max-width:900px){
+    .formularioUsuario{
+        width: 60%;
+    }
+    .tituloFormulario{
+        font-size: 2vw;
+    }
+    .contenedorInput{
+        align-items:flex-start;
+   
+    }
+    .contenedorInputSelect{
+       width: 87%;
+       align-items:flex-start;
+      
+    }
+    .labelFormulario,.labelFormularioEmail,.labelFormularioSelect{
+       font-size: 1.7vw;
+    }
+    .inputFormulario{
+        margin-left:0;
+        height: 30px;
+    }
+    .selectTratamientosFormulario,.selectIdentificacionFormulario{
+        margin-left: 0;
+        height: 30px;
+        font-size: 1.7vw;
+    }
+    .selectTratamientosFormulario{
+        width: 92%;
+        
+    }
+    .opcionesIdentificacionFormulario,.opcionesServiciosFormulario{
+        font-size: 1.6vw;
+    }
+    .botonFormulario{
+        width: 70%;
+        margin-right: 25px;
+    }
+}
+
+/***********************************Mobile****************************************/
+
+@media(max-width:480px){
+    .formularioUsuario{
+        width: 90%;
+    }
+    .tituloFormulario{
+        width: 80%;
+        font-size: 4vw;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .contenedorInput{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .contenedorInputSelect{
+       width: 100%;
+       margin-top: 10px;
+    }
+    .labelFormulario,.labelFormularioEmail,.labelFormularioSelect{
+       font-size: 3.5vw;
+    }
+    .inputFormulario{
+        width: 100%;
+    }
+    .selectTratamientosFormulario,.selectIdentificacionFormulario{
+        width: 100%;
+        font-size: 3vw;
+    }
+    
+    .opcionesIdentificacionFormulario,.opcionesServiciosFormulario{
+        font-size: 3vw;
+    }
+    .botonFormulario{
+        margin-right: 0;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}

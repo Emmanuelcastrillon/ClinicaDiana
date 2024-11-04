@@ -156,8 +156,16 @@
     margin-bottom: 37px;
   }
 
-
-
+  .contenedorFormulario{
+    display: flex;
+    width: 70%;
+    height: 450px;
+    margin-top: 100px;
+  }
+  .imageFormulario{
+    width: 30%;
+    border-radius: 10px;
+  }
 
   /***********************************Table****************************************/
 @media(max-width:900px){
@@ -187,8 +195,15 @@
     height: 80%;
   }
 
-}
+  .contenedorFormulario{
+    width: 90%;
+  }
+  .imageFormulario{
+    width: 40%;
+  }
 
+
+}
 
  /***********************************Mobile****************************************/
  @media(max-width:480px){
@@ -228,6 +243,17 @@
 }
 .parrafoCuminicacion,.parrafoConfianza{
   margin-bottom: 40px;
+}
+.contenedorFormulario{
+  width: 80%;
+  height: 650px;
+  margin-top: 50px;
+  justify-content: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.imageFormulario{
+ display: none;
 }
 
  }

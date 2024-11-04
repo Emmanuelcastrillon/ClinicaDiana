@@ -4,6 +4,8 @@ import consultorio from '../img/DSC02477.JPG';
 import pasillo from '../img/Copia de DSC02581.JPG';
 import equipo from '../img/pan.png';
 import { Link } from 'react-router-dom';
+import Formulario from '../components/Form';
+import imageFormulario from '../img/DSC02484.JPG';
 
 
 function Home() {
@@ -68,6 +70,11 @@ function Home() {
           <p className="parrafoEquipo">Fomentamos la colaboración y el talento entre todos los miembros de nuestro equipo.</p>
         </div>
 
+      </div>
+
+      <div className="contenedorFormulario">
+          <Formulario/>
+         <img src={imageFormulario} alt="" className='imageFormulario' />
       </div>
 
 
