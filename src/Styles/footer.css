@@ -1,3 +1,8 @@
+.lineaFooter{
+    border: none; 
+    height: 3px; 
+    background-color:#93bfcf;
+}
 .pieDePagina{
     background-color:white;
     height: 18vh;

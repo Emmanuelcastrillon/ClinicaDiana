@@ -4,7 +4,9 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <footer className="pieDePagina">
+    <div>
+      <hr className='lineaFooter'/>
+       <footer className="pieDePagina">
         <div className="informacion">
           <a href="https://www.google.com/maps/place/Cl.+11+%2315-40,+Pereira,+Risaralda/@4.8064905,-75.6909149,17z/data=!3m1!4b1!4m6!3m5!1s0x8e38873f18405837:0x7b74047df77a6a81!8m2!3d4.8064905!4d-75.68834!16s%2Fg%2F11j25m5hmy?entry=ttu&g_ep=EgoyMDI0MDkxOC4xIKXMDSoASAFQAw%3D%3D" className="linkGeogleMaps" target='_blank'>
             <h4 className="direccion">Calle 11 # 15-40 los Alpes</h4> 
@@ -22,6 +24,10 @@ function Footer() {
         </div>
 
     </footer>
+
+    </div>
+   
+   
     
    
   )
