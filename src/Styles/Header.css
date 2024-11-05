@@ -115,7 +115,7 @@
 }
 .seleccionTratamientos{
     border: none;
-    background-color: transparent;
+    background-color: #76b8bd;
     width: 11vw;
     color:rgba(119, 111, 116, 0.829);    
     font-size: 1.4vw;
@@ -157,6 +157,9 @@
     transition: transform 0.001s ease, color 0.009s ease; /* Transición suave */
 }
 .hamburguesa{
+    display: none;
+}
+.hambur{
     display: none;
 }
 

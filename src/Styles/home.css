@@ -167,6 +167,58 @@
     border-radius: 10px;
   }
 
+  .contenedorCantidadTratamientos{
+    width: 90vw;
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .tituloContenedorCantidadTratamientos{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    text-align: center;
+    color:  #76b8bd;
+    font-size: 2vw;
+  }
+  .linkTratamientosHome{
+    width: 16.5%;
+    height: 200px;
+    text-decoration: none;
+  }
+  .tratamientoOrtodoncia,.tratamientoDiseño,.tratamientoEndodoncia,.tratamientoRehabilitacion{
+    border: 2px solid #76b8bd;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+  }
+  .tratamientoOrtodoncia:hover,
+  .tratamientoDiseño:hover,
+  .tratamientoEndodoncia:hover,
+  .tratamientoRehabilitacion:hover{
+    background-color: #76b8bd63;
+    transform: scale(1.1); /* Aumentar ligeramente el tamaño */
+  }
+
+  .tituloOrtodoncia,.tituloDiseño,.tituloEndodoncia,.tituloRehabilitacion{
+    font-size: 1.1vw;
+    color:  rgba(119, 111, 116, 0.541);
+    margin-top: 20px;
+  }
+  .imageContador{
+    width: 7vw;
+    height: 12vh;
+    margin-top: 20px;
+  }
+  .contador{
+    font-size: 1.7vw;
+    margin-top: 10px;
+  }
+  
+
   /***********************************Table****************************************/
 @media(max-width:900px){
 .contenedorCarrusel{
@@ -200,6 +252,32 @@
   }
   .imageFormulario{
     width: 40%;
+  }
+
+  .contenedorCantidadTratamientos{
+    width: 100vw;
+    height: 350px;
+  }
+  .tituloContenedorCantidadTratamientos{
+    margin-top: 25px;
+    font-size: 3vw;
+  }
+  .linkTratamientosHome{
+    width: 20%;
+  }
+  .tratamientoOrtodoncia,.tratamientoDiseño,.tratamientoEndodoncia,.tratamientoRehabilitacion{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .tituloOrtodoncia,.tituloDiseño,.tituloEndodoncia,.tituloRehabilitacion{
+    font-size: 2vw;
+    margin-top: 13px;
+  }
+  .imageContador{
+    width: 10vw;
+  }
+  .contador{
+    font-size: 3.5vw;
   }
 
 
@@ -254,6 +332,36 @@
 }
 .imageFormulario{
  display: none;
+}
+
+.contenedorCantidadTratamientos{
+  width: 80vw;
+  height: auto;
+ 
+}
+.tituloContenedorCantidadTratamientos{
+  font-size: 4vw;
+  margin-bottom: 20px;
+}
+.linkTratamientosHome{
+  width: 80%;
+  height: 230px;
+  margin-top: 20px;
+}
+.tratamientoOrtodoncia,.tratamientoDiseño,.tratamientoEndodoncia,.tratamientoRehabilitacion{
+  width: 100%;
+  height: 100%;
+}
+.tituloOrtodoncia,.tituloDiseño,.tituloEndodoncia,.tituloRehabilitacion{
+  font-size: 5vw;
+}
+.imageContador{
+  width: 20vw;
+ margin-top: 15px;
+}
+.contador{
+  font-size: 8vw;
+  margin-top: 5px;
 }
 
  }

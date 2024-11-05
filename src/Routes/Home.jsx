@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import '../Styles/home.css';
 import consultorio from '../img/DSC02477.JPG'; 
 import pasillo from '../img/Copia de DSC02581.JPG';
@@ -6,9 +6,18 @@ import equipo from '../img/pan.png';
 import { Link } from 'react-router-dom';
 import Formulario from '../components/Form';
 import imageFormulario from '../img/DSC02484.JPG';
+import Contador from '../components/Contador';
+import imageOrtodoncia from '../img/imageIconoOrtodoncia.jpeg';
+import imageDiseño from '../img/imageIconoDiseño.jpeg';
+import imageEndodoncia from '../img/imageIconoEndodoncia.jpeg';
+import imageRehabilitacion from '../img/imageIconoRehabilitacion.jpeg';
+
+
+
 
 
 function Home() {
+  
   return (
     <main className='elHome'>
 
@@ -75,6 +84,50 @@ function Home() {
       <div className="contenedorFormulario">
           <Formulario/>
          <img src={imageFormulario} alt="" className='imageFormulario' />
+      </div>
+
+      <div className='contenedorCantidadTratamientos'>
+
+          <h2 className='tituloContenedorCantidadTratamientos'>El total de casos certifican nuestra experiencia</h2>
+          <Link className='linkTratamientosHome' to={'/ortodoncia'}>
+            <div className="tratamientoOrtodoncia">
+                  <img className='imageContador' src={imageOrtodoncia} alt="imageOrtodoncia" />
+                  <Contador limite={100} />
+                  <h4 className="tituloOrtodoncia">Ortodoncia</h4>
+            </div>
+          </Link>
+
+          <Link className='linkTratamientosHome' to={'/diseñoSonrisa'}>
+          <div className="tratamientoDiseño">
+            <img className='imageContador' src={imageDiseño} alt="imageDiseño" />
+            <Contador limite={100} />
+            <h4 className="tituloDiseño">Diseño de sonrisa</h4>
+          </div>
+          </Link>
+
+          <Link className='linkTratamientosHome' to={'/endondoncia'}>
+          <div className="tratamientoEndodoncia">
+            <img className='imageContador' src={imageEndodoncia} alt="imageEndodoncia" />
+            <Contador limite={100} />
+            <h4 className="tituloEndodoncia">Endodoncia</h4>
+          </div>
+          </Link>
+
+          <Link className='linkTratamientosHome' to={'/rehabilitacion'}>
+          <div className="tratamientoRehabilitacion">
+            <img className='imageContador' src={imageRehabilitacion} alt="imageRehabilitacion" />
+            <Contador limite={100} />
+            <h4 className="tituloRehabilitacion">Rehabilitacion</h4>
+          </div>
+          </Link>
+
+         
+          
+
+          
+
+         
+       
       </div>
 
 

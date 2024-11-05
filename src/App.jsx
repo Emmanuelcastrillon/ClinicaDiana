@@ -14,6 +14,7 @@ import Politicas from './Routes/Politicas';
 import DiseñoSonrisa from './Routes/DiseñoSonrisa';
 import Implantologia from './Routes/Implantologia';
 import Higiene from './Routes/Higiene';
+import Rehabilitacion from './Routes/Rehabilitacion';
 
 function App() {
   return (
@@ -33,7 +34,8 @@ function App() {
         <Route path='/endodoncia' element={<Endodoncia/>}/>
         <Route path='/diseñoSonrisa' element={<DiseñoSonrisa/>}/> 
         <Route path='/implantologia' element={<Implantologia/>}/>  
-        <Route path='/higiene' element={<Higiene/>}/>  
+        <Route path='/higiene' element={<Higiene/>}/>
+        <Route path='/rehabilitacion' element={<Rehabilitacion/>}/>  
       
 
   
